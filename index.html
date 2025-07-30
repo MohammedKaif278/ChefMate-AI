@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>👨‍🍳 ChefMate AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <header class="header">
+        <h1 >👨‍🍳 ChefMate AI</h1>
+        <label class="toggle-switch">
+  <input type="checkbox" id="darkModeToggle">
+  <span class="slider"></span>
+</label>
+        </header>
+
+        
+
+    <div class="editdiv">
+    <div class="container">
+        <select id="lang">
+  <option value="en">English</option>
+  <option value="hi">Hindi</option>
+  <option value="mr">Marathi</option>
+  <option value="hg">Hinglish</option>
+  <option value="ur">Urdu</option>
+  
+</select>
+        <button id="clearBtn">Clear Chat</button>
+        <div id="typingIndicator" style="display: none;">ChefMate AI is typing...</div>
+    <div id="convs"></div>
+        <div id="input">
+            <input type="text" placeholder="Enter ingredients or meal request..." id="inp">
+            <button id="btn">Get Recipe</button>
+        </div>
+</div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
