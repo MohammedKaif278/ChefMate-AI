@@ -36,7 +36,7 @@ document.getElementById('btn').addEventListener('click', function () {
        // 👉 Show loading cursor
     document.body.style.cursor = 'wait';
 
-    fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCYlK_K7PUuNoVfLOlgpt16BwBEBbQW5XU`,
+    fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyAzOSl3QH0jIUcY1-yTyZbfT9-IRNKpwjQ`,
         {
             method: "POST",
             headers: {
